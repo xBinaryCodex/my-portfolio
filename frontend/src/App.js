@@ -14,7 +14,12 @@ function App() {
           description="I am a seasoned network engineer transitioning to Software Development learning to use React. I also do free netork security consultations"
           age='38'
           color="Red"
-          skills={["Javascript", "React", "Python", "Networking"]}
+          skills={[
+            {name: "Python", experience: "5 years"},
+            {name: "Networking", experience: "10 years"},
+            {name: "SQL", experience: "5 years"}
+            
+          ]}
         />
         
         <a
